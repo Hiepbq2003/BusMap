@@ -1,0 +1,63 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 4 Jul 2024, 15:40:03
+    Author     : olymp
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #0197DD;
+    display: flex;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .logo{
+    width:80px;
+    height: auto;
+}
+
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    display: flex;
+    gap:20px;
+}
+
+header ul li{
+    display: inline;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+header ul li a:hover{
+    color:black;
+}

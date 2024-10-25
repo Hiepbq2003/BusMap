@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 50;
+    background-color: #12ad3b;
+}
+
+header {
+    background-color: #f2f87d;
+    color: rgb(5, 19, 5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+header .logo img {
+    margin-right: 10px;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+header .flag img {
+    height: 50px;
+    width: 60px;
+    margin-left: 960px;
+    border-radius: 50%;
+}
+
+.location {
+    margin: 10px;
+    text-align: center;
+    color: rgb(246, 246, 246);
+    font-size: medium;
+}
+.search-section {
+    background-color: #00cc44;
+    padding: 30px;
+    text-align: center;
+}
+
+.search-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-area .input-group .l{
+    margin-right: 10px;
+}
+
+.search-area input {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-area button {
+    padding: 5px 10px;
+    background-color: #fbfbfb;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.search-area #swapButton {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.input-group label{
+    margin-right: 10px;
+    padding: 5px;
+    font-size: medium;
+    color: #10936c;
+    border-style: hidden;
+    background-color: white;
+}
+
+.suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.suggestions-list li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.suggestions-list li:hover {
+    background-color: #f0f0f0;
+}
+
+
+main {
+    display: flex;
+    padding: 50px;
+    font-size: medium;
+}
+
+main .routes, main .info {
+    width: 50%;
+    padding: 20px;
+}
+
+main .routes h3, main .info h3 {
+    color: #00b300;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+footer .company-info p, footer .footer-links ul, footer .certificates img, footer .social-media ul {
+    margin: 5px 0;
+}
+
+footer .footer-links ul, footer .social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-links ul li a, footer .social-media ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .certificates img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.sp1 img {
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
